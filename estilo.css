@@ -1,0 +1,34 @@
+*{
+    margin: 0; padding: 0;
+}
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(138, 110, 0);
+    background-color: black;
+}
+
+img {
+    margin: auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    height: 70%;
+    width: 70%;
+    object-fit: contain;
+}
+section {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+    font-size: 2.5vw;
+    text-shadow: .2vw .2vh #8b8b8b;
+}
+    
+@media screen and(max-width:1000px){
+    section{
+        max-width: 1000px;
+        margin: auto;
+    }
+}
